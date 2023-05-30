@@ -25,7 +25,6 @@ class Email {
     }
   
     get from(): string { return this._from; }
-  
     get to(): string { return this._to; }
   
     get content(): string {
