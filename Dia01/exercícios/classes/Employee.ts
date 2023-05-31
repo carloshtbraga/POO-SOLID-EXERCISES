@@ -1,0 +1,6 @@
+interface Exployee {
+  
+}
+class Employee {
+
+}
