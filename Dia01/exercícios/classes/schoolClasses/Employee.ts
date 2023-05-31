@@ -3,6 +3,6 @@ export default interface Employee {
   salary: number,
   admissionDate: Date,
 
-  
+  generateRegistration(): string
 }
 

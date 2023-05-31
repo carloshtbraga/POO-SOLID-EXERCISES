@@ -5,6 +5,7 @@ import Student from "./classes/schoolClasses/Student";
 import Person from './classes/schoolClasses/Person';
 import Employee from './classes/schoolClasses/Employee';
 import Subject from './classes/schoolClasses/Subject'
+import Teacher from "./classes/schoolClasses/Teacher";
 
 
 // const testInterfaceEmployee: Employee = {
@@ -17,13 +18,21 @@ import Subject from './classes/schoolClasses/Subject'
 
 // console.log(testInterfaceEmployee);
 
-// const math = new Subject('Matemática');
-// const story = new Subject('Ha');
-// const philosophy = new Subject('Filosofia');
+const math = new Subject('Matemática');
+const history = new Subject('História');
+const philosophy = new Subject('Filosofia');
+
+const marta = new Teacher('Marta da Silva', new Date('1980/03/30'), 2000, math);
+const joao = new Teacher('João Antônio da Costa', new Date('1982/04/21'), 2000, history);
+const lucio = new Teacher('Lucio Teixeira', new Date('1986/01/29'), 2000, philosophy);
+
+
 
 // console.log(math);
 // console.log(story);
 // console.log(philosophy);
+
+
 
 // const carolina = new Student('Carolina da Silva', new Date('2005/03/17'));
 // const lucas = new Student('Lucas Peixoto Salgueiro', new Date('2006/07/19'));
